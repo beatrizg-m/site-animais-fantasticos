@@ -189,6 +189,22 @@ html.textomaior {
     font-weight: bold;
 }
 
+[data-semana]::after {
+    display: inline-block;
+    content: " ";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgb(202, 26, 26);
+    border: 2px solid #222;
+    margin-left: 5px;
+}
+
+.aberto::after {
+    background-color: #3f4;
+}
+
+
 @media (max-width: 700px) {
     .grid-container {
         grid-template-columns: 1fr;
